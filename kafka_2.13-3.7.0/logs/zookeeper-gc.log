@@ -1,0 +1,48 @@
+[2026-01-18T11:34:40.413-0500][gc,init] CardTable entry size: 512
+[2026-01-18T11:34:40.413-0500][gc     ] Using G1
+[2026-01-18T11:34:40.415-0500][gc,init] Version: 21.0.8+12-LTS-250 (release)
+[2026-01-18T11:34:40.415-0500][gc,init] CPUs: 7 total, 7 available
+[2026-01-18T11:34:40.415-0500][gc,init] Memory: 6794M
+[2026-01-18T11:34:40.415-0500][gc,init] Large Page Support: Disabled
+[2026-01-18T11:34:40.415-0500][gc,init] NUMA Support: Disabled
+[2026-01-18T11:34:40.415-0500][gc,init] Compressed Oops: Enabled (32-bit)
+[2026-01-18T11:34:40.415-0500][gc,init] Heap Region Size: 1M
+[2026-01-18T11:34:40.415-0500][gc,init] Heap Min Capacity: 512M
+[2026-01-18T11:34:40.415-0500][gc,init] Heap Initial Capacity: 512M
+[2026-01-18T11:34:40.415-0500][gc,init] Heap Max Capacity: 512M
+[2026-01-18T11:34:40.415-0500][gc,init] Pre-touch: Disabled
+[2026-01-18T11:34:40.415-0500][gc,init] Parallel Workers: 7
+[2026-01-18T11:34:40.415-0500][gc,init] Concurrent Workers: 2
+[2026-01-18T11:34:40.415-0500][gc,init] Concurrent Refinement Workers: 7
+[2026-01-18T11:34:40.415-0500][gc,init] Periodic GC: Disabled
+[2026-01-18T11:34:40.419-0500][gc,metaspace] CDS archive(s) mapped at: [0x00007fc10f000000-0x00007fc10fcab000-0x00007fc10fcab000), size 13283328, SharedBaseAddress: 0x00007fc10f000000, ArchiveRelocationMode: 1.
+[2026-01-18T11:34:40.419-0500][gc,metaspace] Compressed class space mapped at: 0x00007fc110000000-0x00007fc150000000, reserved size: 1073741824
+[2026-01-18T11:34:40.419-0500][gc,metaspace] Narrow klass base: 0x00007fc10f000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2026-01-18T11:34:40.826-0500][gc,start    ] GC(0) Pause Young (Normal) (GCLocker Initiated GC)
+[2026-01-18T11:34:40.828-0500][gc,task     ] GC(0) Using 7 workers of 7 for evacuation
+[2026-01-18T11:34:40.834-0500][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.3ms
+[2026-01-18T11:34:40.834-0500][gc,phases   ] GC(0)   Merge Heap Roots: 0.2ms
+[2026-01-18T11:34:40.834-0500][gc,phases   ] GC(0)   Evacuate Collection Set: 3.6ms
+[2026-01-18T11:34:40.834-0500][gc,phases   ] GC(0)   Post Evacuate Collection Set: 1.7ms
+[2026-01-18T11:34:40.834-0500][gc,phases   ] GC(0)   Other: 1.8ms
+[2026-01-18T11:34:40.834-0500][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2026-01-18T11:34:40.834-0500][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2026-01-18T11:34:40.834-0500][gc,heap     ] GC(0) Old regions: 2->7
+[2026-01-18T11:34:40.834-0500][gc,heap     ] GC(0) Humongous regions: 0->0
+[2026-01-18T11:34:40.834-0500][gc,metaspace] GC(0) Metaspace: 8190K(8320K)->8190K(8320K) NonClass: 7340K(7424K)->7340K(7424K) Class: 850K(896K)->850K(896K)
+[2026-01-18T11:34:40.834-0500][gc          ] GC(0) Pause Young (Normal) (GCLocker Initiated GC) 26M->9M(512M) 7.845ms
+[2026-01-18T11:34:40.834-0500][gc,cpu      ] GC(0) User=0.01s Sys=0.00s Real=0.01s
+[2026-01-18T12:59:09.137-0500][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2026-01-18T12:59:09.137-0500][gc,task     ] GC(1) Using 7 workers of 7 for evacuation
+[2026-01-18T12:59:09.148-0500][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 1.0ms
+[2026-01-18T12:59:09.148-0500][gc,phases   ] GC(1)   Merge Heap Roots: 0.7ms
+[2026-01-18T12:59:09.148-0500][gc,phases   ] GC(1)   Evacuate Collection Set: 5.2ms
+[2026-01-18T12:59:09.148-0500][gc,phases   ] GC(1)   Post Evacuate Collection Set: 3.3ms
+[2026-01-18T12:59:09.148-0500][gc,phases   ] GC(1)   Other: 0.1ms
+[2026-01-18T12:59:09.148-0500][gc,heap     ] GC(1) Eden regions: 21->0(23)
+[2026-01-18T12:59:09.148-0500][gc,heap     ] GC(1) Survivor regions: 4->2(4)
+[2026-01-18T12:59:09.148-0500][gc,heap     ] GC(1) Old regions: 7->11
+[2026-01-18T12:59:09.148-0500][gc,heap     ] GC(1) Humongous regions: 0->0
+[2026-01-18T12:59:09.148-0500][gc,metaspace] GC(1) Metaspace: 9818K(10048K)->9818K(10048K) NonClass: 8862K(8960K)->8862K(8960K) Class: 956K(1088K)->956K(1088K)
+[2026-01-18T12:59:09.148-0500][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 30M->10M(512M) 10.534ms
+[2026-01-18T12:59:09.148-0500][gc,cpu      ] GC(1) User=0.00s Sys=0.02s Real=0.01s
